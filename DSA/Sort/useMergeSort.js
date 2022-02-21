@@ -1,6 +1,6 @@
-const sort = require("./bubbleSort");  
+const sort = require("./mergeSort");
 
-const elements = [4685, 471, 880, 808];
+const elements = [260, 926, 954, 208, 669, 183];
 
 function compare(left, right) {
   console.log("compare", left, "to", right);

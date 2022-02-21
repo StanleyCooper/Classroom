@@ -1,5 +1,5 @@
 // Simple Sorting Algorithm 
-// NOT FEASIBLE IN REAL APPLICATIONS (O(n^2) runtime)
+// NOT FEASIBLE IN REAL APPLICATIONS (O(n^2) runtime)  
 
 function bubbleSort(compare, elements) {
     if (Array.isArray(elements)) {
