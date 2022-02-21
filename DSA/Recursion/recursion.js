@@ -1,8 +1,7 @@
 // Base case: The solution to the "simplest" possible problem; this case provides a terminating condition for the recursive case
 // Recursive case: Where you call the same function to solve increasingly simple versions of the problem
 
-
-/* Recusive Factorial (bottom-up)
+//Recusive Factorial (bottom-up)
 function factorial(number) {
     console.log("Forward phase", number);
   
@@ -20,9 +19,9 @@ function factorial(number) {
     return number * numberMinusOneFactorial;
 }
   
-console.log(factorial(5)); */
+console.log(factorial(5)); 
 
-/* Top down factorial
+// Top down factorial
 function factorial(number, total = 1) {
     console.log("Forward phase", number, "*", total);
   
@@ -38,9 +37,9 @@ function factorial(number, total = 1) {
     return total;
 }
   
-console.log(factorial(5)); */
+console.log(factorial(5)); 
 
-/* Iterative factorial
+// Iterative factorial
 function factorial(number) {
     // Base case
     if (number <= 1) {
@@ -59,9 +58,9 @@ function factorial(number) {
     }
     return total;
 }
-console.log(factorial(5)); */
+console.log(factorial(5)); 
 
-/*function sum(n) {
+function sum(n) {
     // Check the base case
     if (n === 1) {
       return 1;
@@ -69,7 +68,7 @@ console.log(factorial(5)); */
   
     return n + sum(n - 1);
 }
-console.log(sum(6));*/
+console.log(sum(6));
 
 /*
 PSEUDOCODE for concept string spliter
@@ -87,7 +86,8 @@ function split(text, separator):
   extract rest of string from first occurrence of separator + 1 to end of string
   recursively solve the rest of string
   insert the substring in the resulting array
-  return the array */
+  return the array  
+*/
 
   function split(text, separator) {
     // Find the index of the first occurrence of separator
@@ -111,3 +111,17 @@ function split(text, separator):
     return restSolution;
 }
 console.log(split("hello this is me", " "));
+
+
+
+
+
+
+  
+
+
+  
+  
+
+
+

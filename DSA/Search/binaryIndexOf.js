@@ -1,3 +1,4 @@
+// THIS ASSUMES A SORTED ARRAY
 function binaryIndexOf(compare, sortedElements) {
     if (Array.isArray(sortedElements)) {
       let lowerIndex = 0;
